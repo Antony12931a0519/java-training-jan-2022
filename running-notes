@@ -1,0 +1,352 @@
+45-60 hours
+
+mobile based
+
+web based 
+
+stand alone aplictins
+
+
+core java
+Datatypes
+Encapsulation
+variables
+variable types
+Methos
+Different yps of methods
+class
+object
+data binding
+opertors
+contro statments
+ex eption handling
+
+
+Advance Java concepts
+frameworks
+Rest APi
+Spring Boot(spring)
+
+ORM
+hibernate
+jpa
+data jpa
+
+servers:
+tomcat(apache)
+
+boiler plate code
+
+
+
+
+example:
+
+5 steps
+1. decale class that can connect or make sure (class.forname()")
+2.establisibg
+3.stanebts(queies)
+4.execute
+5.resulut
+
+
+JDBC
+
+
+
+Real time tools:
+maven/ant
+IDE(eclipse/intellij/sublime)
+Vsose(front /ui)
+jira
+vsts(tracking the tickets)
+jenkins
+CICD pipelines
+gitlab
+github
+
+
+Devops
+piplines
+build
+deploye
+test(junits)
+
+job(build(from some gitlab repo+Deploed(soe tomcat)+test(pyraft)))--pipline
+
+
+
+Data types:
+----------
+int,float,long,double,char,string,short,boolean
+
+12(int/long/short)
+default valye 0
+12.0(float/double)
+0.0
+'A'/'1'(char)
+''
+"kdksf"(String)
+ 
+boolean (true/false)
+false
+
+varibale:
+----------
+name=Anthony sampath
+
+data-type variablenae;
+String name;
+
+
+variable declaration
+-------------------
+String name;
+
+name="jdqdqjdqwjw";
+
+
+
+variable initilazation:
+-------------------------
+String name="Abc Def";
+
+
+
+
+
+types of variables:
+-------------------
+local variable
+global /public variables
+final variables
+static variabkles
+
+
+
+
+
+
+
+
+
+public class Demo{
+
+
+ static sting name ="sdwf";//static variable
+ sting name ="sdwf";//non static static variable/instance variabe/global varibales
+ 
+ final sting name ="sdwf";//non static static variable/instance variabe/global varibales
+
+
+
+
+main(){
+
+ sting name ="sdwf";//local variables
+Sysout(name)
+
+}
+
+}
+
+accessing the variables
+-----------------------
+
+public class Demo{
+
+
+ static sting name ="sdwf";//static variable
+ sting name1 ="sdwf";//non static static variable/instance variabe/global varibales
+ 
+ final sting query ="sdwf";//non static static variable/instance variabe/global varibales
+
+
+
+
+main(){
+
+ sting name ="sdwf";//local variables
+Sysout(name)
+Sysout(classname.name)
+
+Sysout(name1)
+
+
+
+
+}
+
+public class Demo1{
+
+
+ 
+
+
+
+main(){
+
+ sting name ="sdwf";//local variables
+//Sysout(name)
+Sysout(classname.name)
+
+
+}
+
+
+}
+
+object:
+-------
+
+Demo demo = new Demo();
+
+
+
+public class Demo1{
+
+
+ 
+
+
+
+main(){
+
+ sting name ="sdwf";//local variables
+//Sysout(name)
+Sysout(classname.name)
+
+Demo demo = new Demo();
+Sysout(demo.name1)
+
+
+}
+
+
+}
+
+---------------------
+
+
+methods:
+--------
+class Demo{
+
+line1
+line2
+
+
+Access specfier   access modifier     return-type      method-name          inputs/arguments for the method
+public           static              void               main               (String args){
+
+//method body/method implemetation
+
+
+}
+
+Access specfier:<optional>
+---------------
+public 
+private
+protected
+
+
+
+access modifier:<optional>
+--------------
+static
+final
+
+
+return-type:<mandatory>
+----------
+it can be any datatype
+void
+
+
+public void m1{
+
+
+}
+
+public int m1{
+
+return 1;
+}
+
+
+method-name:<mndatory>
+-----------
+user definded meds/custom methods
+public int m2{
+
+return 1;
+}
+pre defineded method
+Access specfier   access modifier     return-type      method-name          inputs/arguments for the method
+public           static              void               main               (String args){
+
+//method body/method implemetation
+
+
+}
+
+inputs/arguments for the method:<optional>
+--------------------------------
+
+ int addition(int a,int b){
+
+return a+b;
+}
+
+ void  addition(){
+int a,int b;
+return a+b;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+types ofmethods
+-----------------
+static methds
+non static nethods
+final methods
+
+
+
+abstact methods:
+------------------
+
+void  addition();
+void  addition(int a,int b);
+
+
+calss demo1{
+
+@oerride
+void  addition(){
+
+fw2e2ee2e
+23
+2
+233
+2
+}
+}
+
+
+
+concrete methods:
+
