@@ -6,7 +6,6 @@ web based
 
 stand alone aplictins
 
-
 core java
 Datatypes
 Encapsulation
@@ -349,4 +348,245 @@ fw2e2ee2e
 
 
 concrete methods:
+
+
+
+
+Inheritance:
+------------
+members of class(Properties/variables and methods)
+
+Parent 
+some property
+
+
+Child
+same property can be acess by the child
+
+
+extends
+
+Class A{
+
+int age=10;
+
+public void peintWelcomeMessage(){
+
+Sysout("Hello");
+}
+
+
+}
+
+
+Class B extends A{
+
+int age1=10;
+
+public void peintWelcomeMessage1(){
+
+Sysout("Hello");
+}
+
+
+
+public void peintWelcomeMessage(){
+
+Sysout("Welcome");
+}
+
+
+}
+
+Class Test{
+
+main(){
+
+m1();
+
+}
+
+
+m1(){
+
+
+
+A a = new A();
+
+
+
+B b = new B();
+
+super
+}
+
+
+
+
+}
+
+overiding:
+-----------
+
+
+Interfaces:
+-----------
+
+keywor:implements
+
+class A{
+
+}
+
+Clase B which can implement A {
+
+}
+
+
+Clase C which can implement A{
+
+}
+
+Clase D which can implement A{
+
+}
+
+-----------------------------
+
+Clase B which can implement A{
+
+}
+
+
+Clase C which can implement A{
+
+}
+
+Clase D which can implement A{
+
+}
+
+interfaces contain only abstract methods
+
+
+inteface BankingApp{
+
+public abstract  vioid m1();
+public  abstract vioid m2();
+
+}
+
+helper classes (implementation)
+
+public class SBI implements BankingApp{
+
+public abstract  vioid m1(){
+
+}
+
+public  abstract vioid m2(){
+
+
+}
+
+}
+
+
+
+
+RBI:
+
+minBalance
+typeOfAccounts
+NuberofDigitsInAccountNumber
+
+
+
+class SBI implemets RBI{
+
+minBalance{
+
+}
+typeOfAccounts{
+
+}
+NuberofDigitsInAccountNumber{
+
+}
+
+minBalancefq(){
+
+
+
+}
+typeOfAccounts(){
+
+
+}
+NuberofDigitsInAccountNumberas(){
+
+}
+
+
+}
+
+
+
+class HDFC implemets RBI{
+
+minBalance{
+
+}
+typeOfAccounts{
+
+}
+NuberofDigitsInAccountNumber{
+
+}
+
+minBalancefq(){
+
+
+
+}
+typeOfAccounts(){
+
+
+}
+NuberofDigitsInAccountNumberas(){
+
+}
+
+
+test(){
+
+//RBI rbi = new RBI();
+
+RBI rbi = new HDFC();
+rbi.
+
+}
+
+
+}
+
+
+interface A{
+
+
+m1();
+m2();
+default m3(){
+
+
+}
+
+}
+
+
+class 
+
+
+
+
 
