@@ -6,6 +6,7 @@ web based
 
 stand alone aplictins
 
+
 core java
 Datatypes
 Encapsulation
@@ -585,6 +586,98 @@ default m3(){
 
 
 class 
+
+
+Access Specifiers:
+-----------------
+public
+private
+protected
+default
+
+public --this can be access anywhere
+
+private ---this can be access within the class
+protected-- can be accessed by its self as well as all the extended clasess(sub classes)
+deafult--can b eaccess thorough the package
+
+Access Modifiers:
+-----------------
+static
+final
+
+public  static final void main(){
+
+}
+
+
+
+-----------------
+
+operators:
+-----------
+depend on operands(variables)
+
+
+add 2 numbers
+
+int a;
+int b;
+int c;
+
+Sysout("C:"+(a+b));
+Arthimetmatic
++ - / * %
+
+assignment(=)
+
+logical(&&  || )--in order to build complex conditon
+
+TT && True<false>
+FF || False<true>
+
+relatinal(<, >,<=,>=,==,=!)
+
+1,2,3,4,5,6
+
+
+age = 20;
+>=18
+
+amazon
+10000 get 1000 
+20000 get 20
+
+
+
+
+ternary oprator
+
+x?true:false
+
+
+calculator
+
+which number is greator(logical operators)
+
+incerment ++
+decrement --
+
+
+------------------------------------
+
+
+iterative staments
+
+
+
+
+
+
+
+
+
+
 
 
 
