@@ -668,6 +668,289 @@ decrement --
 
 
 iterative staments
+------------------
+for
+for each
+while
+do while
+
+control statments:
+----------------
+if else
+nested else
+switch
+
+polymorsphism:
+-----------
+
+method oveloading
+meth overiding
+
+-----------------------------------------
+
+aws(s3)
+
+----------------
+
+Advance java 
+
+appplication servers
+some build(maven)
+frameworks
+
+
+----------------------------
+
+Basic life cycle for the web based application.
+
+some layers(packages)
+
+bootstrap / class with starting point
+
+controller(Controller classles)
+http://facebook.com/friends
+http://facebook.com/addAfriend
+http://facebook.com/deleteFriend
+
+
+http://facebook.com/friends
+method(){
+
+internlly connect to db ge the detais from db//dao class
+process the details//business logic///use the service layaer classess 
+render the details to the cotroller back
+
+}
+
+
+DAO(Data Access object)
+-----------------------
+Freinds
+Address
+Cities
+
+Service layer/ manager layer
+--------------------------
+
+util(utlities)
+
+security(authentication)
+
+pogos
+
+models
+
+Bo
+
+VO
+
+
+
+
+
+
+
+basic crud operations
+
+,M   C V (jsp/servlets/javasript) --(angular/react/spa) 
+
+collections
+
+LIST
+SET
+MAP
+
+Frind
+
+public List<Friends> getFriends(){
+
+List<Friends> friends = get  friends from oher layer.
+return friends;
+}
+
+
+public class Friends{
+
+
+private String name;
+private String fid;
+
+
+getters and setters
+
+
+
+}
+
+
+
+
+application--->contoller------>servie layer/ manager layer----->DAO layer----->configs/databases
+application<---contoller<------servie layer/ manager layer<-----DAO layer<-----configs/databases
+
+
+
+
+coming to conftoller
+------------------
+URLS/apis/rest apis/services/endpoint
+
+https://teams.microsoft.com/_#/pre-join-calling/19:meeting_YjY0MGI5Y2YtYTIzOC00YzhmLWI0N2EtNzliMGYxMDA0MTMz@thread.v2
+https://teams.microsoft.com/_#/pre-join-calling/19:meeting_YjY0MGI5Y2YtYTIzOC00YzhmLWI0N2EtNzliMGYxMDA0MTMz@thread.v1
+
+CRUD operations:
+----------------
+
+
+annotations?
+
+inheritance
+
+
+Restfull framework:
+
+@POST--create
+@PUT--update
+@GET---Read
+@DELETE--delete
+
+
+Spring bootst
+----------
+@POSTMapping--create--create
+@PUTMapping--update
+@GETMapping---Read
+@DELETEMapping--delete
+
+
+--------------------------------
+
+data formats:
+-----------
+
+input payload--request
+out payload---response
+text
+html
+json format
+xml
+
+json format
+{"name":"PrivacyConcern","time":"2022-01-07T02:47:42.729Z","ver":"4.0","iKey":"o:bc3902d8132f43e3ae086a009979fa88","ext":{"metadata":{"privTags":33554432,"privLevel":110},"sdk":{"ver":"1DS-Web-JS-3.1.4","seq":1062,"epoch":"3844628845"},"app":{"sesId":"f347f838-e4bf-3402-eb81-e52d510b428f"},"user":{"locale":"en-IN"},"web":{"domain":"teams.microsoft.com","browser":"Chrome","browserVer":"96.0.4664.110","screenRes":"0X0","userConsent":false},"os":{"name":"Windows","ver":"10"},"intweb":{},"utc":{"popSample":100},"loc":{"tz":"+05:30"}},"data":{"baseData":{"properties":{"version":"PostChannel=3.1.4;OverridePropertiesPlugin=3.1.4;SystemPropertiesCollector=3.1.4;PrivacyGuardPlugin=3.1.4"}},"PG_EventName":"trouter_js_client_response","PG_FieldName":"url.value","PG_TypeAsText":"Url","PG_BaseType":"custom"}}
+
+
+
+Friends{
+name,
+address
+
+}
+
+model:
+{
+"name":"",
+"address":""
+}
+
+-------------------------------
+
+Friends{
+name;
+address;
+private Address address;
+private List<Address> address1;
+
+}
+
+
+Address{
+name,
+address
+
+}
+
+<address>
+
+<name>knwkef</name>
+<address>knwkef</address>
+</address>
+
+
+model:
+{
+"name":"",
+"address":"",
+"address":{
+
+"name":"",
+"address":""
+
+},
+"address1":[{
+
+"name":"",
+"address":""
+
+
+
+},
+{
+
+"name":"",
+"address":""
+
+
+
+},
+{
+
+"name":"",
+"address":""
+
+
+
+}
+
+
+]
+
+
+request
+response
+
+@Path("/https://teams.microsoft.com/_#/pre-join-calling/19:meeting_YjY0MGI5Y2YtYTIzOC00YzhmLWI0N2EtNzliMGYxMDA0MTMz@thread.v2")
+@POST
+@Consumes(Application/json)
+@Produces(Application/json)
+public void m1(){
+
+
+}
+
+@PostMapping(path="/msbjasds",method="post",consues="jon",produce"json")
+public void m1(){
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
