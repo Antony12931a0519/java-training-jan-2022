@@ -935,6 +935,155 @@ public void m1(){
 
 
 
+Group(group id)-com.example
+Artifact-demo
+Name-demo
+Description-Demo project for Spring Boot
+Package name-com.example.demo
+
+maven project:
+----------
+pom.xml
+
+packing---jar/war
+
+dependencies--
+jdbc
+conn = class.forName("com.jdbc.driver.MYsqlDriver");
+conn = class.forName("com.jdbc.driver.orcalseDriver");
+conn.
+
+build path
+
+myql db
+
+
+<dependencies>
+<dependency>
+</dependency>
+
+<dependency>
+</dependency>
+</dependencies>
+
+<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			
+		</dependency>
+</dependencies>
+
+
+plugins
+
+properties
+
+<spring-boot-starter-web.version>2.34.</version>
+java version
+
+
+spring-boot-starter-web
+@post
+@
+
+
+git;
+
+
+2 commands
+
+clean--removing all the .class files
+install
+
+
+.java-----.class file-----run
+project--n java files--->maven install
+
+
+maven clean
+
+
+
+https://mvnrepository.com/
+
+
+repo
+braches
+
+features(
+release
+master
+
+
+feature/name-of-the-functionaly
+
+pr/mr
+
+sevlet
+------
+
+Heloo
+
+profiles
+
+local---->sit---->dev----->qa--->uat---->prod
+
+
+<repository>
+			<id>central</id>
+			<name>Central Repository</name>
+			<url>https://repo.maven.apache.org/maven2</url>
+			<layout>default</layout>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		
+		301, Ramya Enclave, Sriram nager,subash nager,sanath nager,hyderbad,500018
+
+
+
+localhost:8080/friends/list
+
+[
+
+{},
+{},
+{}
+
+]
+
+
+
+[
+{"friendId":101,"firstName":"Abc","lastName":"ffq","address":"HYd"},
+{"friendId":102,"firstName":"Abc","lastName":"ffq","address":"HYd"}
+]
+
+
+db
+connection proprties
+tables
+
+
+
+connection string
+spring.datasource.url=jdbc:h2:mem:testdb  
+
+driver registration
+spring.datasource.driverClassName=org.h2.Driver  
+
+spring.datasource.username=sa  
+spring.datasource.password=  
+
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect 
+
+
+entity
+each and every table is declared or created as entity class in java
+
+
 
 
 
