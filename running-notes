@@ -1083,6 +1083,146 @@ spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 entity
 each and every table is declared or created as entity class in java
 
+Collections:
+------------
+
+want to store marks of a student
+
+int[5] marks = {101,1011,22,3,,3};
+
+List
+Set and 
+Map
+
+List:
+
+ArrayList
+LinkedArrayList----linked lis 
+Stack--->pop top
+Vector---
+
+u can store values  that values can be duplicated.
+1,2,3,4,5,5,5,5
+
+
+
+Set:
+HashSet
+TreeSet
+LinkedHashSet
+u can store values  that values cant be duplicated.
+1,2,3,4,5,5,5,5
+
+
+Map:
+HashMap
+LinkedHashMap
+TreeMap
+
+we store in key value format
+
+employee id
+
+101,"Antony"
+102,"Sagar"
+----------------
+
+Company
+101,"details of demployee"
+102,""
+
+
+List Implementation:
+
+want to store similar dataof same tpe 
+want to store data of simalr type with multiple dattypes inside the bjet
+
+List<String>--->multiple string values
+List<Integer>--->multiple interger values
+
+want to details of multiple student
+
+student{
+
+id,
+name,
+gender,
+
+
+}
+
+List<Student>--->multiple interger values
+
+
+
+List<String> names = new ArrayList<String>();
+names.add("bjsh");
+names.add("bjsh");names.add("bjsh");names.add("bjsh");names.add("bjsh");names.add("bjsh");names.add("bjsh");names.add("bjsh");names.add("bjsh");names.add("bjsh");
+
+nana.mamma
+mmma
+mmmajjw
+mddw
+ddqdw
+name
+
+names.get(index)
+nammes.add(1,value)
+
+
+
+--------------
+
+List<Student> students = new Arryalist<Student>();
+Student s1 = new Student();
+s1.et
+s
+
+students.add(s1);
+
+Student s2 = new Student();
+s1.et
+s
+students.add(s2);
+
+
+1,"Antny"
+2,"Sagar"
+3,"prashnati"
+Map<Integer,String>  
+Map<Integer,Studnet>
+Map<Lst<Integer>,String>
+Map<Set<Integer>,String>
+
+Map<Integer,String> map = new HashMap<Integer,String>();
+
+map.put(key,value);
+map.put(101,"fnkn");
+
+map.keyset();
+map.values();
+map.size()
+map.entrySet();
+
+
+equals()
+hashCode();
+
+Map<Integer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
