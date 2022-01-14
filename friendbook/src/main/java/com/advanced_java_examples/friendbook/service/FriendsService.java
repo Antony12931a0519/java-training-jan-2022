@@ -3,12 +3,16 @@ package com.advanced_java_examples.friendbook.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.advanced_java_examples.friendbook.dao.TestDAO;
 import com.advanced_java_examples.friendbook.models.Friends;
 
 @Service
 public class FriendsService {
+	@Autowired
+	private  TestDAO testDAO;
 	public List<Friends> getFriends() {
 		List<Friends> friends = new ArrayList<Friends>();
 
@@ -27,6 +31,7 @@ public class FriendsService {
 		friend2.setLastName("ffq");
 
 		friends.add(friend2);
+		System.out.println("Test output:---->"+testDAO.findById( 1));
 
 		return friends;
 

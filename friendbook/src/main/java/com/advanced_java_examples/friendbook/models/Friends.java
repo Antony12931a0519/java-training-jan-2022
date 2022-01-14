@@ -67,4 +67,15 @@ public class Friends {
 		this.address = address;
 	}
 
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Friends [friendId=" + friendId + ", firstName=" + firstName
+				+ ", lastName=" + lastName + ", address=" + address + "]";
+	}
+	
+	
+
 }

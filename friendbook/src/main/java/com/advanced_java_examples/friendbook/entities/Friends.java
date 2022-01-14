@@ -3,8 +3,10 @@ package com.advanced_java_examples.friendbook.entities;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table
 public class Friends {
 	@Id
 	@Column
