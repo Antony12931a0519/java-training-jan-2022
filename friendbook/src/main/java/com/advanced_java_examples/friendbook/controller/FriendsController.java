@@ -18,7 +18,7 @@ public class FriendsController {
 	// autowired is for injecting the oject or for oject reatin of the clss
 	@Autowired
 	private FriendsService friendsService;
-
+//test commit
 	@GetMapping("/friends")
 	public List<String> getFriends() {
 		return Arrays.asList("Abc", "DEF", "FNFJ");
