@@ -1,11 +1,22 @@
 package com.advanced_java_examples.friendbook.models;
 
+
 public class Friends {
 
 	private int friendId;
 	private String firstName;
 	private String lastName;
 	private String address;
+
+	public String getMobile() {
+		return mobile;
+	}
+
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
+
+	private String mobile;
 
 	/**
 	 * @return the friendId
@@ -66,16 +77,5 @@ public class Friends {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 */
-	@Override
-	public String toString() {
-		return "Friends [friendId=" + friendId + ", firstName=" + firstName
-				+ ", lastName=" + lastName + ", address=" + address + "]";
-	}
-	
-	
 
 }
