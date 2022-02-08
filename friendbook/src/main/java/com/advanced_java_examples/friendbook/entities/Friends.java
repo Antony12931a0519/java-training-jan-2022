@@ -1,17 +1,20 @@
 package com.advanced_java_examples.friendbook.entities;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table
 public class Friends {
 	@Id
 	@Column
-	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int friendId;
 	@Column
 	private String firstName;
-	@Column(name = "lsatName")
-	private String lastName;
+	@Column
+	private String lsatName;
 	@Column
 	private String address;
 	@Column
@@ -51,7 +54,7 @@ public class Friends {
 	 * @return the lsatName
 	 */
 	public String getLsatName() {
-		return lastName;
+		return lsatName;
 	}
 
 	/**
@@ -59,7 +62,7 @@ public class Friends {
 	 *            the lsatName to set
 	 */
 	public void setLsatName(String lsatName) {
-		this.lastName = lsatName;
+		this.lsatName = lsatName;
 	}
 
 	/**
